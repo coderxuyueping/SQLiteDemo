@@ -17,7 +17,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     }
 
     /**
-     * 第一次在获取SQLiteDataBase(getWriteDBataBase方法)后执行，以后如果数据库版本号不大于之前的，就不执行这个方法，如果大于之前的，执行onUpgrade
+     * 第一次在获取SQLiteDataBase(getWritableDatabase方法)后执行，以后如果数据库版本号不大于之前的，就不执行这个方法，如果大于之前的，执行onUpgrade
      * @param db
      */
     @Override
